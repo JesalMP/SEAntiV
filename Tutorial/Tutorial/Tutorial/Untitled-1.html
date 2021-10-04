@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Like Counter</title>
+</head>
+<body>
+<h1>Do you like CSGO?</h1>
+
+<br>
+<h2> Like the page</h2>
+<p> Number of likes </p>
+<p id="lij"></p>
+<button type="button" onclick="like()">Like</button>
+<script>
+var count = 0;
+function like()
+{
+document.getElementById("lij").innerHTML = count++;
+}
+</script></body>
+</html>
+
+
